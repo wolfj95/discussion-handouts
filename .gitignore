@@ -1,0 +1,22 @@
+# Python
+env/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Student data -- never commit (FERPA).
+# Rosters, Canvas submissions, unmatched reports, back pages, and generated handouts.
+*.csv
+!sample_*.csv
+*.xlsx
+*.pdf
+*.html
+unmatched_passages.txt
+passage_submissions/
+
+# Per-session archive folders (e.g. 2025/session-3/)
+[0-9][0-9][0-9][0-9]/
